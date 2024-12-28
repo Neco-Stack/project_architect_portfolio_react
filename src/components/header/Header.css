@@ -24,3 +24,8 @@
     background-color: #333; 
     color: #fff; 
 }
+.header-nav a:hover,
+.header-nav .active {
+  border-top: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+}
