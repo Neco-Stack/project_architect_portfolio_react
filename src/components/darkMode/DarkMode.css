@@ -1,13 +1,13 @@
 .header {
-    /* Deine bestehenden Styles */
+    
     transition: background-color 0.3s ease;
 }
 
 .header.dark-mode {
-    background-color: #333; /* Dunkler Hintergrund */
-    color: #fff; /* Helle Schriftfarbe */
+    background-color: #333; 
+    color: #fff; 
 }
 
 .header.dark-mode .header-nav a {
-    color: #fff; /* Helle Schriftfarbe für Links */
+    color: #fff; 
 }

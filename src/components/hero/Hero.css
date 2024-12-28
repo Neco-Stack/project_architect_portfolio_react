@@ -25,7 +25,8 @@
     padding: 10px 20px;
     font-size: 12px;
     text-decoration: none;
-    color: #333;
+    font-size: 16px;
+    color: black;
 }
 .project {
     color: #bdbdbd;

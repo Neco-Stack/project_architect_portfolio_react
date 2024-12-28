@@ -44,10 +44,10 @@
 
 }
 body.dark-mode .read-more {
-    background-color: white; /* Weißer Hintergrund im Dunkelmodus */
-    color: black; /* Schwarze Schriftfarbe im Dunkelmodus */
-    padding: 10px 15px; /* Innenabstand für den Button-Effekt */
-    border-radius: 5px; /* Abgerundete Ecken */
+    background-color: white; 
+    color: black; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
     font-family: 'Roboto';
 }
 body.dark-mode .about-text p {
