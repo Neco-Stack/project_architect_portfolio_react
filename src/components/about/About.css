@@ -50,3 +50,6 @@ body.dark-mode .read-more {
     border-radius: 5px; /* Abgerundete Ecken */
     font-family: 'Roboto';
 }
+body.dark-mode .about-text p {
+    color: #bdbdbd;
+}

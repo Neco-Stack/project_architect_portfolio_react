@@ -32,9 +32,14 @@
     color: #333333; 
 }
 
-body.dark-mode .mission h1, 
+body.dark-mode .mission h1 {
+    font-size: 64px;
+    font-weight: 300;
+    color: #bdbdbd;
+    margin-bottom: 30px;
+}
 body.dark-mode .mission-item p { 
-    color: #ffffff; 
+    color: #bdbdbd; 
 }
 
 body.dark-mode .number {
@@ -43,4 +48,5 @@ body.dark-mode .number {
 
 body.dark-mode .mission {
     background-color: #333;
+    color: #bdbdbd;
 }
