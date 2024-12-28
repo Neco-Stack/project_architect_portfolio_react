@@ -1,0 +1,41 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+.hero-content {
+    flex: 1;
+    max-width: 50%;
+}
+.hero-image {
+    flex: 1;
+    position: relative;
+    margin-left: -10rem;
+}
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+.view-project {
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #333;
+}
+.project {
+    color: #bdbdbd;
+    font-size: 64px;
+    line-height: 64px;
+}
+.lorum {
+    color: #333333;
+    font-size: 64px;
+}
+body.dark-mode .lorum {
+    color: #ffffff;
+}

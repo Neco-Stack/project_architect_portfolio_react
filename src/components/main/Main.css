@@ -1,0 +1,46 @@
+.mission {
+    padding: 40px;
+}
+
+.mission h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: #bdbdbd; /* Helle Farbe für den Titel */
+}
+
+.mission-content {
+    display: flex;
+    gap: 40px;
+}
+
+.mission-item {
+    display: flex;
+    align-items: center;
+}
+
+.number {
+    font-size: 200px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #f2f2f2; 
+}
+
+.mission-item p {
+    font-size: 32px;
+    font-weight: 400;
+    color: #333333; 
+}
+
+body.dark-mode .mission h1, 
+body.dark-mode .mission-item p { 
+    color: #ffffff; 
+}
+
+body.dark-mode .number {
+    color: #f2f2f2; 
+}
+
+body.dark-mode .mission {
+    background-color: #333;
+}
