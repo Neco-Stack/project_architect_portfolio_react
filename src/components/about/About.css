@@ -27,6 +27,7 @@
     font-size: 64px;
     color: #bdbdbd;
     font-weight: 300;
+    margin-bottom: 20px;
 }
 .about-image:first-child {
     margin-bottom: 20px;
@@ -38,11 +39,9 @@
     font-weight: 400;
     text-decoration: none;
     color: black;
-    margin-left: 20px;
     font-family: 'Roboto';
-
-
 }
+
 body.dark-mode .read-more {
     background-color: white; 
     color: black; 

@@ -57,10 +57,11 @@
     height: 390px;                     
 }
 .send-message-button {
-    padding: 10px 20px;
-    font-size: 12px;
+    padding: 16px;
+    font-size: 16px;
     font-family: 'Roboto';
     margin-top: auto;
+    border-radius: 5px;
 }
 body.dark-mode .send-message-button {
     background-color: white; 
