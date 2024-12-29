@@ -52,3 +52,45 @@ body.dark-mode .read-more {
 body.dark-mode .about-text p {
     color: #bdbdbd;
 }
+@media (max-width: 768px) {
+    .about {
+        padding: 20px;
+    }
+
+    .about-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-group {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .about-image {
+        max-width: 150px;
+    }
+
+    .about-text {
+        font-size: 18px;
+    }
+
+    .about-text h2 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-image {
+        max-width: 120px;
+    }
+
+    .about-text {
+        font-size: 16px;
+    }
+
+    .about-text h2 {
+        font-size: 28px;
+    }
+}

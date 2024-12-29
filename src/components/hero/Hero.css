@@ -6,7 +6,8 @@
 }
 .hero-content {
     flex: 1;
-    max-width: 50%;
+    max-width: 60%;
+    z-index: 2;
 }
 .hero-image {
     flex: 1;
@@ -43,4 +44,30 @@ body.dark-mode .lorum {
 }
 body.dark-mode .view-project {
     color: #333333;
+}
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        order: 2;
+        margin-top: 1rem;
+    }
+
+    .hero-image {
+        order: 1;
+        max-width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .view-project {
+        position: static;
+        display: inline-block;
+        margin-top: 1rem;
+    }
 }
